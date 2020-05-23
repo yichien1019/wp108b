@@ -7,88 +7,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>貓咪小學堂</title>
     <style>
-        .navbar {  
-          overflow: hidden;
-          background-color: #333;
-          font-family: Arial, Helvetica, sans-serif;
-        }  <!--導航欄>
-        
-        .navbar a {
-          float: left;
-          font-size: 16px;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        .dropdown {
-          float: left;
-          overflow: hidden;
-        }
-        
-        .dropdown .dropbtn {
-          cursor: pointer;
-          font-size: 16px;  
-          border: none;
-          outline: none;
-          color: white;
-          padding: 14px 16px;
-          background-color: inherit;
-          font-family: inherit;
-          margin: 0;
-        }
-        
-        .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-          background-color: #555;
-        }
-        
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f9f9f9;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-        }
-        
-        .dropdown-content a {
-          float: none;
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-          text-align: left;
-        }
-        
-        .dropdown-content a:hover {
-          background-color: #ddd;
-        }
-        
-        .show {
-          display: block;
-        }
-        </style>
-</head>
-
-
-
-<body>
-    <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#news">News</a><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <div class="dropdown">
-        <button class="dropbtn" onclick="myFunction()">Dropdown
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content" id="myDropdown">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-        </div> 
-      </div>
-  <style>
     body 
     {
         background-image: url('https://www.cloudynights.com/uploads/gallery/album_10138/gallery_125132_10138_4067904.jpg');
@@ -98,7 +16,180 @@
         font-family: "Lato", sans-serif;
         margin: 0;
     }
-  </style>  
+    .navbar {  
+        overflow: hidden;
+        background-color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+    }  /*導航欄*/ 
+        
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    } /*沒有下拉的按鍵*/
+        
+
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    } 
+        
+    .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    } /*可以下拉的按鍵*/
+        
+    .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+        background-color: #555;
+    } /*在按鍵上移動時的變化*/
+        
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    } /*可下拉選項裡的內容*/
+        
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    } /*可下拉選項裡的字體*/
+        
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    } /*可下拉選項裡移動時的變化*/
+        
+    .show {
+        display: block;
+    }
+
+    table{
+        border: 1px s white;
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+        margin-top: 100px;
+    } /*表單格式*/
+    td,th{
+        background-color: rgba(255, 255, 255, 0.4);
+        border: 1px solid white;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        width: auto;
+        vertical-align: middle;
+    } /*表單項目*/
+    </style>
+</head>
+
+
+
+<body>
+    <div id="header">
+    <h1 style="text-align: center; color: #99ccff;font-size: 200%;">關於我</h1>
+    </div>
+
+    <div class="navbar">
+    <a href="myweb.html">貓咪小學堂</a>
+
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">NEWS</button><i class="fa fa-caret-down"></i></button>
+
+        <div class="dropdown-content" id="myDropdown">
+            <a href="https://news.google.com/topstories?hl=zh-TW&gl=TW&ceid=TW:zh-Hant">Google新聞</a>
+            <a href="https://tw.news.yahoo.com/">Yahoo新聞</a>
+            <a href="https://news.tvbs.com.tw/">TVBS新聞</a>
+        </div>
+    </div> 
+    </div>
+        <table>
+            <tr>
+                <th>項目</th>
+                <th>內容</th>
+            </tr>
+            <tr>
+                <td>照片</td>
+                <td><img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.0-9/p960x960/88281231_821019841700415_5523215981448527872_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_oc=AQmtOkpmXf4f2tf4Z6S01FVY1MOmAg-CstXMK0juBwD1yO9kVHLSeWh1UpY5_tYPaRHYS4QOmBPxW2O3KRLsUXcF&_nc_ht=scontent.fkhh1-2.fna&_nc_tp=6&oh=0ea9108b581006eb7766f952b5ac1b01&oe=5EEF9AAF" style="width:50%"></td>
+            </tr>
+            <tr>
+                <td>姓名</td>
+                <td>劉怡謙</td>
+            </tr>
+            <tr>
+                <td>性別</td>
+                <td>女</td>
+            </tr>
+            <tr>
+                <td>電話</td>
+                <td>0933928937</td>
+            </tr>
+            <tr>
+                <td>信箱</td>
+                <td>yichien1019@gmail</td>
+            </tr>
+            <tr>
+                <td>生日</td>
+                <td>2000年10月19日</td>
+            </tr>
+            <tr>
+                <td>星座</td>
+                <td>天秤座</td>
+            </tr>
+            <tr>
+                <td>家庭成員</td>
+                <td>
+                    <ul >
+                        <li>阿婆-羅丁妹</li>
+                        <li>爸爸-劉謹銘</li>
+                        <li>媽媽-林美玲</li>
+                        <li>妹妹-劉靜謙</li>
+                        <li>弟弟-劉懷謙</li>
+                    </ul>
+                </td> 
+            </tr>
+            <tr>
+                <td>經歷</td>
+                <td>
+                    <ul>
+                        <li><a href="https://www.junanes.mlc.edu.tw/">苗栗縣竹南國民國小</a></li>
+                        <li><a href="http://163.19.239.12/front/bin/home.phtml">苗栗縣君毅高級中學</a></li>
+                        <li><a href="http://www.cpshs.hcc.edu.tw/front/bin/home.phtml">新竹縣竹北高級高中</a></li>
+                        <li><a href="https://www.nqu.edu.tw/cht/index.php?">金門縣國立金門大學</a></li>
+                    </ul>
+                </td> 
+            </tr>
+        </table>
+    <script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+    </script>
   
     
 </body>
