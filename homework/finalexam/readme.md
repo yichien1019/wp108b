@@ -1,4 +1,4 @@
-<p font-size:36px>期末作業(POS系統的應用)</p>
+<p font-size:36px;>期末作業(POS系統的應用)</p>
 作者:劉怡謙<br>   
 
 作業:POS系統的應用<br>
