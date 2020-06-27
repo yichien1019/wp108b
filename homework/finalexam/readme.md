@@ -1,4 +1,4 @@
-期末作業(POS系統的應用)
+<p font-size:24>期末作業(POS系統的應用)</p>
 作者:劉怡謙
 作業:POS系統的應用
 作品:並非100%原創
@@ -13,6 +13,6 @@
 作品參考來源:
 作品中所參考的資料，及我對其理解及改篇的程度。
 
-版面配置是參考老師POS的版面設置去修改的。 [陳鍾誠POS系統demo](https://github.com/ccccourse/wp/tree/master/code/08-app2/pos/06-report?fbclid=IwAR3eRSOI1dE_rKJ_TN7nU8RJVbjKaRAtuw7uOWgsm4AeT_GwDz2AFZ3Bjzg)
+版面配置是參考老師POS的版面設置去修改的。 [陳鍾誠POS系統](https://github.com/ccccourse/wp/tree/master/code/08-app2/pos/06-report?fbclid=IwAR3eRSOI1dE_rKJ_TN7nU8RJVbjKaRAtuw7uOWgsm4AeT_GwDz2AFZ3Bjzg)
 其中我對其中的css和js有一部分不太理解，我不懂的地方有上網查尋然後理解它也有自己全部打過一遍。
 POS系統是看了老師的範例之後理解之後，自己又打了一次，並且做了小幅度的更改。
