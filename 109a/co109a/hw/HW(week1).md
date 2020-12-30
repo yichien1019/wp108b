@@ -76,7 +76,7 @@ CHIP Xor {
     Or(a=nab,b=anb,out=out);
 ```
 
-## 5.Mux
+## 5.Mux(多工器)
 #### code:
 ```
 /** 
